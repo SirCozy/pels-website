@@ -3,13 +3,13 @@ import { products } from '../lib/products'
 
 const whatsappPhone = '2348086622817'
 const whatsappLink = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(
-  'Hi Pel’s Artistry, I’d love to order a handcrafted décor piece.'
+  'Hi Pel’s Artistry, I’d love to order a luxurious home and interior décor piece.'
 )}`
 
 const services = [
   'Custom décor design',
   'Personalized space styling',
-  'Handcrafted aesthetic pieces',
+  'luxurious home and interior aesthetic pieces',
 ]
 
 export default function HomePage() {
@@ -35,13 +35,13 @@ export default function HomePage() {
         <div className="relative mx-auto flex max-w-6xl flex-col gap-12 lg:flex-row lg:items-center lg:gap-20">
           <div className="max-w-2xl">
             <p className="mb-6 inline-flex rounded-full border border-[#800020] bg-white/80 px-3 py-1 text-sm uppercase tracking-[0.24em] text-[#800020] shadow-sm">
-              Premium handcrafted décor
+              Premium luxurious home and interior décor
             </p>
             <h1 className="text-4xl font-semibold leading-tight tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
-              Handcrafted décor that brings elegance and personality into every space.
+              Luxury décor that brings elegance and personality into every space.
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-700 sm:text-xl">
-              Pel’s Artistry creates elegant, aesthetic, and meaningful décor pieces designed to transform spaces with warmth, texture and timeless style.
+              Pel’s Artistry provides elegant, aesthetic, and meaningful décor pieces designed to transform spaces with warmth, texture and timeless style.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
@@ -74,10 +74,10 @@ export default function HomePage() {
           <div className="flex flex-col gap-6 lg:max-w-3xl">
             <p className="text-sm uppercase tracking-[0.28em] text-[#800020]">About Pel’s Artistry</p>
             <h2 className="text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-              Crafted with intention, texture, and storytelling.
+               Offers with intention, texture, and storytelling.
             </h2>
             <p className="max-w-3xl text-lg leading-8 text-slate-700">
-              Pel’s Artistry started from a love for turning simple spaces into something beautiful and meaningful. What began as a personal passion for crafts and decor has grown into a brand that brings warmth, elegance, and personality into every space. Each piece is created with intention — not just to decorate, but to tell a story and reflect the people who live with it.
+              Pel’s Artistry started from a love for turning simple spaces into something beautiful and meaningful. What began as a personal passion for crafts and decor has grown into a brand that brings warmth, elegance, and personality into every space. Each piece is provided with intention — not just to decorate, but to tell a story and reflect the people who live with it.
             </p>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function HomePage() {
               </h2>
             </div>
             <p className="max-w-xl text-sm leading-6 text-slate-600">
-              Browse handcrafted décor designed for premium interiors, with calm textures and thoughtful finishes. Tap any product to begin your WhatsApp order.
+              Browse luxurious décor designed for premium interiors, with calm textures and thoughtful finishes. Tap any product to begin your WhatsApp order.
             </p>
           </div>
 
