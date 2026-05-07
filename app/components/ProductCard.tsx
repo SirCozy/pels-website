@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import type { Product } from '../../lib/products'
 
 const whatsappPhone = '2348086622817'
@@ -10,8 +9,8 @@ export default function ProductCard({ product }: { product: Product }) {
 
   return (
     <article className="group overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-soft transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_80px_rgba(0,0,0,0.08)]">
-      <div className="relative h-72 overflow-hidden bg-[#f8f3f2]">
-        <Image src={product.image} alt={product.name} fill className="object-cover object-center" />
+      <div className="relative h-48 overflow-hidden bg-[#f8f3f2]">
+        <img src={product.image} alt={product.name} className="w-full h-48 object-cover rounded" />
       </div>
       <div className="space-y-4 p-6">
         <div>
