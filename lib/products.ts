@@ -8,31 +8,62 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 'linen-wall-art',
-    name: 'Textured Linen Wall Art',
-    description: 'Soft, layered shapes for a calm and refined wall display.',
-    price: '₦18,000',
-    image: '/products/product-1.svg',
+    id: 'oval-wall-acrylic-painting',
+    name: 'Oval Wall Acrylic Painting',
+    price: '₦37,000',
+    description: 'Stoned Art Frame • Size: 40 x 60',
+    image:
+      'https://i.postimg.cc/4dtgtnr8/IMG-20260507-WA0014.jpg',
   },
   {
-    id: 'minimal-shelf-trio',
-    name: 'Minimal Shelf Trio',
-    description: 'Elegant shelf decor pieces designed to balance modern living rooms.',
-    price: 'Contact for price',
-    image: '/products/product-2.svg',
+    id: 'luxury-crystal-wall-acrylic-painting',
+    name: 'Luxury Crystal Wall Acrylic Painting',
+    price: '₦37,500',
+    description: 'Stoned Art Frame • Size: 40 x 50',
+    image:
+      'https://i.postimg.cc/D0P3jHfG/IMG-20260507-WA0012.jpg',
   },
   {
-    id: 'ceramic-vase-pair',
-    name: 'Ceramic Vase Pair',
-    description: 'Handcrafted vases with tactile glaze for warm interiors.',
-    price: '₦12,500',
-    image: '/products/product-3.svg',
+    id: 'mask-ball-man-with-tray',
+    name: 'Mask Ball Man With Tray',
+    price: '₦55,000',
+    description:
+      'Beautiful luxurious resin décor piece available in white and gold.',
+    image:
+      'https://i.postimg.cc/qqxHbSB6/IMG-20260507-WA0011.jpg',
   },
   {
-    id: 'woven-texture-mat',
-    name: 'Woven Texture Accent Mat',
-    description: 'A rich accent piece that adds depth and comfort to any space.',
-    price: 'Contact for price',
-    image: '/products/product-4.svg',
+    id: 'astronaut-projector-light',
+    name: 'Astronaut Projector Light',
+    price: '₦30,000',
+    description: 'Comes with remote and music playback functionality.',
+    image:
+      'https://i.postimg.cc/C5spPXMB/IMG-20260507-WA0010.jpg',
+  },
+  {
+    id: 'sitting-astronaut',
+    name: 'Sitting Astronaut',
+    price: '₦28,000',
+    description: 'Perfect for gifting purposes and modern home décor.',
+    image:
+      'https://i.postimg.cc/prJMG4Vn/IMG-20260507-WA0009.jpg',
+  },
+  {
+    id: 'kaws-with-digital-clock',
+    name: 'Kaws with Digital Clock',
+    price: '₦50,000',
+    description: 'Unique stunning console décor available in two colors.',
+    image:
+      'https://i.postimg.cc/gjHbSQcw/IMG-20260507-WA0008.jpg',
+  },
+  {
+    id: 'foldable-work-table',
+    name: 'Foldable Work Table',
+    price: '₦26,000',
+    description:
+      'Designed for comfort, convenience and productivity. Size: 70cm. Available in beige and black.',
+    image:
+      'https://i.postimg.cc/d3jcHpQD/IMG-20260507-WA0007.jpg',
   },
 ]
+
